@@ -8,7 +8,7 @@
 
 ### 팀명 : 소웨지존
 
-#### 팀원
+### 팀원
 > [김경남](https://github.com/kimkyeongnam)(소프트웨어학과)  
 > [김민주](https://github.com/min942773)(소프트웨어학과)  
 > [유지인](https://github.com/jiin0217)(디지털콘텐츠학과)  
