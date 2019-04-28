@@ -12,42 +12,39 @@
 
 <br>
 
-## Topic: 이모티콘 추천 분류기
-이모티콘은 주석으로 달아놓은 상태에서 문장을 미리 설정해 놓은 클래스로 분류하고.  
+## 1. Topic: 이모티콘 추천 분류기
+이모티콘은 주석으로 달아놓은 상태에서 문장을 미리 설정해 놓은 클래스로 분류하고,  
 클래스에 맞는 이모티콘을 추천하는 AI분류기를 만들 예정
 
 <br>
 
-## Execution environment 
+## 2. Execution environment 
 파이썬을 기반으로 Google Colab을 통해 개발
 
 <br>
 
-## Execution screen
+## 3. Execution screen
 (준비중)
 
 <br>
 
-## How to execute
+## 4. How to execute
 (준비중)
 
 <br>
 
-
-<br>
-
-## How to contribute
+## 5. How to contribute
     ..pull request하던가, 계속 상의하면서 완성본만 올리면 되지 않을까요..?
 
 <br>
 
-## License
+## 6. License
 [Open-source under ?? license](https://tldrlegal.com/)  
 (준비중)
 
 <br>
 
-## Contribuer's Information
+## 7. Contribuer's Information
 | 이름| 학과 | Github | Email |
 |:---:|:---:|:---:|:---:|
 |김경남|소프트웨어학과|[@kimkyeongnam](https://github.com/kimkyeongnam)|[kkyy0126@naver.com](kkyy0126@naver.com)|
