@@ -52,5 +52,5 @@
 |김경남|소프트웨어학과|[@kimkyeongnam](https://github.com/kimkyeongnam)|[kkyy0126@naver.com](kkyy0126@naver.com)|
 |김민주|소프트웨어학과|[@min942773](https://github.com/min942773)|이메일작성해주세요!|
 |유지인|디지털콘텐츠학과|[@jiin0217](https://github.com/jiin0217)|이메일작성해주세요!|
-|이주혁|소프트웨어학과|[@zero5two4](https://github.com/zero5two4)|이메일작성해주세요!|
+|이주혁|소프트웨어학과|[@zero5two4](https://github.com/zero5two4)|zero5.two4@gmail.com|
 |황유진|지능기전공학부<br>무인이동체공학|[@hyj378](https://github.com/hyj378)|yujine92@gmail.com|
