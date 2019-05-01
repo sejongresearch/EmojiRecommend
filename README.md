@@ -46,7 +46,7 @@
 
 <br>
 
-## 7. Contributer's Information
+## 7. Contributor's Information
 | 이름| 학과 | Github | Email |
 |:---:|:---:|:---:|:---:|
 |김경남|소프트웨어학과|[@kimkyeongnam](https://github.com/kimkyeongnam)|[kkyy0126@naver.com](kkyy0126@naver.com)|
