@@ -3,10 +3,12 @@
 
 <br>
 ## 진행상황
+
 * 트위터 데이터 크롤링 ... 진행중 (60%)
 * 데이터 전처리
 * 데이터 학습
 * 모델 테스트
+
 
 <br>
 ## 현재 진행상황 상세
@@ -23,6 +25,7 @@ pandas와 트위터 api를 이용해 코랩환경에서 데이터를 크롤링�
 <br>
 처리 중<br>
 ![image](https://user-images.githubusercontent.com/41140561/58679678-8f604300-839f-11e9-88cb-c2bca3ca806c.png)
+
 
 <br>
 
@@ -59,7 +62,8 @@ pandas와 트위터 api를 이용해 코랩환경에서 데이터를 크롤링�
 <br>
 
 ## 5. How to contribute
-    ..pull request하던가, 계속 상의하면서 완성본만 올리면 되지 않을까요..?
+ (준비중) 
+    
 
 <br>
 
