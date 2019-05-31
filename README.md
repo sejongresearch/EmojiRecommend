@@ -2,6 +2,27 @@
 세종대학교 인공지능 수업 **소웨지존 팀**
 
 <br>
+## 진행상황
+* 트위터 데이터 크롤링 ... 진행중 (60%)
+* 데이터 전처리
+* 데이터 학습
+* 모델 테스트
+
+<br>
+## 현재 진행상황 상세
+* 트위터 데이터 크롤링
+pandas와 트위터 api를 이용해 코랩환경에서 데이터를 크롤링하고, 불필요한 테그, 부적절한 단어를 제거하는 과정에 있다.
+<br>
+처리 전<br>
+![image](https://user-images.githubusercontent.com/41140561/58679619-4c9e6b00-839f-11e9-9fdd-13a2c4b847c7.png)
+<br>
+처리 중<br>
+![image](https://user-images.githubusercontent.com/41140561/58679662-79eb1900-839f-11e9-8801-9e510527baa4.png)
+<br>
+처리 중<br>
+![image](https://user-images.githubusercontent.com/41140561/58679678-8f604300-839f-11e9-88cb-c2bca3ca806c.png)
+
+<br>
 
 ## Table of Contents
 * Topic
