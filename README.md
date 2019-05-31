@@ -19,6 +19,11 @@
 *****************************************
 트위터에서 제공하는 api를 이용해 인증키를 받으면 트위터 정보를 읽어 올 수 있다.[[예시]](https://colab.research.google.com/drive/1REz1FcRk2vdIshHQeJAKmraYRZL6KzeE#scrollTo=HHXOOPuyN4GV)<br>
 [애정, 분노, 슬픔, 피곤, 공포]등의 감정을 대표할 수 있는 이모티콘을 포함한 트윗을 읽어 csv파일로 저장한다
+애정 : 😍, 😘, 😙, 🤭, 💘 등
+분노 : 😤, 😡, 😠, 🤬, 👿 등
+슬픔 : 😥, 😢, 😭, 💦 등
+피곤 : 😔, 😑, 😐, 😞 등
+공포 : 😨, 😰, 😱 
 [twitterscraper](https://pypi.org/project/twitterscraper/0.2.7/)를 이용하면 더 오래된 트윗도 읽어올 수 있다.
 
 
