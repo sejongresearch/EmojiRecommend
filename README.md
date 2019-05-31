@@ -5,35 +5,44 @@
 
 ## 진행상황
 
-* 트위터 데이터 크롤링 ... 진행중 (60%)
-* 데이터 전처리
-* 데이터 학습
+* 트위터 데이터 크롤링 ... 진행중
+* 데이터 전처리... 진행중 
+* 데이터 학습 ... 모델 지식 습득중
 * 모델 테스트
 
 
 <br>
 
 ## 현재 진행상황 상세
-* 트위터 데이터 크롤링
 
-
-pandas와 트위터 api를 이용해 코랩환경에서 데이터를 크롤링하고, 불필요한 테그, 부적절한 단어를 제거하는 과정에 있다.
+[트위터 데이터 크롤링]
+*****************************************
+트위터에서 제공하는 api를 이용해 인증키를 받으면 트위터 정보를 읽어 올 수 있다.
+[애정, 분노, 슬픔, 피곤, 공포]등의 감정을 대표할 수 있는 이모티콘을 포함한 트윗을 읽어 csv파일로 저장한다
+twitterscraper를 이용하면 더 오래된 트윗도 읽어올 수 있다.
 <br>
 
-### 처리 전<br>
-
-![image](https://user-images.githubusercontent.com/41140561/58679619-4c9e6b00-839f-11e9-9fdd-13a2c4b847c7.png)
+[데이터 전처리]
+*****************************************
+트윗에서 적절하지 않은 단어와 멘션과 같은 토큰을 제거하고, 트위터, 꼬꼬마, 코모란과 같은 형태소 분석기로 전처리한다.
 <br>
 
-### 처리 중<br>
+[데이터 학습]
+*****************************************
+조사를 제외한 단어단위로 학습을 할지 아니면 조사를 포함하여 학습할 지 정하고
+모델에 사용할 네크워크에 대해 공부하고 있음.
 
-![image](https://user-images.githubusercontent.com/41140561/58679662-79eb1900-839f-11e9-8801-9e510527baa4.png)
+
+
 <br>
 
-### 처리 중<br>
+## 참고할 링크
 
-![image](https://user-images.githubusercontent.com/41140561/58679678-8f604300-839f-11e9-88cb-c2bca3ca806c.png)
-
+[한국어 감성 분석기](https://github.com/mrlee23/KoreanSentimentAnalyzer)<br>
+[감정기반 이모지추천 시스템](https://github.com/yunsikus/BOAZ_Project)<br>
+[KoNLPy를 이용한 한국어 영화 리뷰 감정 분석](https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html)<br>
+[형태소 분석기 성능 비교](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/05/10/postag/)<br>
+[이모티콘 추천기 (영어)](https://github.com/DOsinga/deep_learning_cookbook/blob/master/07.1%20Text%20Classification.ipynb)<br>
 
 <br>
 
