@@ -17,10 +17,10 @@
 
 [트위터 데이터 크롤링]
 *****************************************
-트위터에서 제공하는 api를 이용해 인증키를 받으면 트위터 정보를 읽어 올 수 있다.
+트위터에서 제공하는 api를 이용해 인증키를 받으면 트위터 정보를 읽어 올 수 있다.[[예시]](https://colab.research.google.com/drive/1REz1FcRk2vdIshHQeJAKmraYRZL6KzeE#scrollTo=HHXOOPuyN4GV)
 [애정, 분노, 슬픔, 피곤, 공포]등의 감정을 대표할 수 있는 이모티콘을 포함한 트윗을 읽어 csv파일로 저장한다
 [twitterscraper](https://pypi.org/project/twitterscraper/0.2.7/)를 이용하면 더 오래된 트윗도 읽어올 수 있다.
-[크롤링_예시](https://colab.research.google.com/drive/1REz1FcRk2vdIshHQeJAKmraYRZL6KzeE#scrollTo=HHXOOPuyN4GV)
+
 
 <br>
 <br>
@@ -28,7 +28,7 @@
 
 [데이터 전처리]
 *****************************************
-트윗에서 적절하지 않은 단어와 멘션과 같은 토큰을 제거하고, [트위터](https://github.com/twitter/twitter-korean-text), [꼬꼬마](http://kkma.snu.ac.kr/documents/), [코모란](https://www.shineware.co.kr/products/komoran/)과 같은 형태소 분석기로 전처리한다.
+트윗에서 적절하지 않은 단어와 멘션과 같은 [토큰을 제거](https://colab.research.google.com/drive/1ZhkFbDcqM0BoQN8W5LaAuZv37oPE417u#scrollTo=G7J3UcCLJTvt)하고, [트위터](https://github.com/twitter/twitter-korean-text), [꼬꼬마](http://kkma.snu.ac.kr/documents/), [코모란](https://www.shineware.co.kr/products/komoran/)과 같은 형태소 분석기로 전처리한다.
 
 
 <br>
