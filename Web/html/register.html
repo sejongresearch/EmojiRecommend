@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>학교생활 관리 시스템</title>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css"> 
+		<link rel="stylesheet" type="text/css" href="css/register_form.css">
+	</head>
+	<body>
+		<header>
+			<div>
+				<a href="login.html"><img src="img/logo.png" class="header_logo_img"><a/>
+				<ul>
+					<li><a href="register.html">회원가입</a></li>
+					<li><a href="login.html">로그인</a></li>
+					<li><a href="login.html">홈</a></li>
+				</ul><br>
+			</div>
+		</header>
+		<main id="main_login">
+			<form action="php/register.php" method="post" name="register" id="register_clear_form">
+				<div>
+					이름<br><input type="text" placeholder="name" name="name" id="name_input"><br>
+					아이디<br><input type="text" placeholder="id" name="id" id="id_input"><br>
+					비밀번호<br><input type="password" placeholder="pw" name="password" id="pw_input" onkeyup="password_same()";><br>
+					비밀번호 확인<br><input type="password" id="pwcheck_input" name='pw_check' onkeyup="password_same();"><span id="pw_same"></span><br>
+					이메일<br><input type="text" name="email_1" id="email_input1">@<input type="text" name="email_2" id="email_input2" placeholder="직접입력"><br>
+					연락처<br><input type="text" name="phone_number_1" id="phone_input1" size="3">-<input type="text" name="phone_number_2" id="phone_input2" size="4">-
+					<input type="text" name="phone_number_3" id="phone_input3" size="4"><br>
+					<input type="button" value="회원가입 하기" id="register_clear_button" onclick="input_check();">
+				</div>
+			</form>
+		</main>
+		<div id="footer">
+        	Copyright ©  Corp. All rights reserved.<font color="blue">
+        	</br>Made by 김경남, 이주혁</font>
+        </div>
+	</body>
+
+</html>
