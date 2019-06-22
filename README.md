@@ -34,8 +34,8 @@
 <br>
 
 ## 1. Presentation
-* [Paper]()
-* [Slides]()
+* Paper: [논문이름]()
+* Slides: [ppt이름]()
 <br><br>
 
 ## 2. Directory/File Structure Diagram
