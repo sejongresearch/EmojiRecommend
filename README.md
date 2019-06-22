@@ -20,17 +20,8 @@
 <br>
 <br>
 
-## 참고할 링크
-
-[한국어 감성 분석기](https://github.com/mrlee23/KoreanSentimentAnalyzer)<br>
-[감정기반 이모지추천 시스템](https://github.com/yunsikus/BOAZ_Project)<br>
-[KoNLPy를 이용한 한국어 영화 리뷰 감정 분석](https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html)<br>
-[형태소 분석기 성능 비교](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/05/10/postag/)<br>
-[이모티콘 추천기 (영어)](https://github.com/DOsinga/deep_learning_cookbook/blob/master/07.1%20Text%20Classification.ipynb)<br>
-
-<br>
-
 ## Table of Contents
+* Presentation
 * Directory/File Structure Diagram
 * Execution environment
 * Execution screen
@@ -42,28 +33,33 @@
 
 <br>
 
-## 1. Directory/File Structure Diagram
+## 1. Presentation
+* [Paper]()
+* [Slides]()
+<br><br>
+
+## 2. Directory/File Structure Diagram
 ```
 준비중
 ```
 <br>
 
-## 2. Execution environment 
+## 3. Execution environment 
 파이썬을 기반으로 Google Colab, Jupyter notebook을 통해 개발
-<br>
+<br><br><br>
 
-## 3. Execution screen
+## 4. Execution screen
 (준비중)
-<br>
+<br><br><br>
 
-## 4. How to execute
+## 5. How to execute
 ```
 1. Project Fork
 2. Git Bash 프로그램 실행 후 저장소 clone
 ```
 <br>
 
-## 5. How to contribute
+## 6. How to contribute
 ```
 1. Project Fork
 2. git bash 프로그램 실행 후 저장소 clone
@@ -72,14 +68,15 @@
 ```
 <br>
 
-## 6. License
+## 7. License
 Open-source under [MIT license]()
-<br>
+<br><br><br>
 
-## 7. FAQ
+## 8. FAQ
 FAQ는 [Issue #28](https://github.com/hyj378/EmojiRecommand/issues/28)을 통해 운영되고 있습니다.
+<br><br><br>
 
-## 8. Contributor's Information
+## 9. Contributor's Information
 | 이름| 학과 | Github | Email |
 |:---:|:---:|:---:|:---:|
 |김경남|소프트웨어학과|[@kimkyeongnam](https://github.com/kimkyeongnam)|[kkyy0126@naver.com](kkyy0126@naver.com)|
