@@ -12,7 +12,7 @@
  <p align="center">
   이 Repository는 세종대학교 인공지능 과목에서 <br>Github를 통한 <b>AI분류기</b> 주제를 수행하기 위해 만들어졌습니다.<br><br>
   트위터 기반의 빅 데이터로, 입력된 문장의 감정을 파악 후 이모티콘을 추천하는 AI분류기를 제작했습니다.<br>
-자세한 사항은 <a href=https://github.com/kimkyeongnam/OSS-SnakeGame/wiki> Wiki </a>를 참고해주시길 바랍니다.<br>
+자세한 사항은 <a href=https://github.com/sejongresearch/EmojiRecommand/wiki> Wiki </a>를 참고해주시길 바랍니다.<br>
  </p>
 </div>
 
@@ -73,7 +73,7 @@ Open-source under [MIT license]()
 <br><br><br>
 
 ## 8. FAQ
-FAQ는 [Issue #28](https://github.com/hyj378/EmojiRecommand/issues/28)을 통해 운영되고 있습니다.
+FAQ는 [Issue #28](https://github.com/sejongresearch/EmojiRecommand/issues/28)을 통해 운영되고 있습니다.
 <br><br><br>
 
 ## 9. Contributor's Information
