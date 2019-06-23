@@ -34,8 +34,8 @@
 <br>
 
 ## 1. Presentation
-* Paper: [논문이름]()
-* Slides: [ppt이름]()
+* Paper: [트위터 데이터를 이용한 감정 분류 및 이모티콘 추천](https://docs.google.com/document/d/1KNMm3CatsFcwMUiOh2MCyBfum1kfLiit7qV9XNM_mIk/edit?usp=sharing)
+* Slides: [트위터 데이터를 이용한 이모티콘 추천](https://drive.google.com/file/d/13nZFQsMdmGWgQ0pW-BmMnJ4C2u3CZANB/view?usp=sharing)
 <br><br>
 
 ## 2. Directory/File Structure Diagram
