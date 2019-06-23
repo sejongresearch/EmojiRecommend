@@ -256,7 +256,7 @@
                   <!-- Default input -->
                   <div class="form-group">
                       <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">문장 입력(한국어, 영어)</label>
-                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="input_sentence" class="form-control" id="formGroupExampleInput" placeholder="문장을 입력해주세요.">
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="result" class="form-control" id="formGroupExampleInput" placeholder="문장을 입력해주세요.">
                   </div>
                   <!-- Default input -->
                   
@@ -272,8 +272,8 @@
           <div class="col-lg-6 col-md-12">
 
             <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">이모티콘 추천받기</p>
-            {% if price %}
-              <h5 class="text-center mt-3">추천하는 이모티콘은 {{ 결과값 }}입니다.</h5>
+            {% if result %}
+              <h5 class="text-center mt-3">추천하는 이모티콘은 {{ result }}입니다.</h5>
             {% endif %}
           </div>
           <!--/Grid column-->
