@@ -1,104 +1,82 @@
-# Artificial Intelligence
-세종대학교 인공지능 수업 **소웨지존 팀**
-
-<br>
-
-## 진행상황
-
-* 트위터 데이터 크롤링 ... 진행중
-* 데이터 전처리... 진행중 
-* 데이터 학습 ... 모델 지식 습득중
-* 모델 테스트
-
-
-<br>
-
-## 현재 진행상황 상세
-
-[트위터 데이터 크롤링]
-*****************************************
-트위터에서 제공하는 api를 이용해 인증키를 받으면 트위터 정보를 읽어 올 수 있다.[[예시]](https://colab.research.google.com/drive/1REz1FcRk2vdIshHQeJAKmraYRZL6KzeE#scrollTo=HHXOOPuyN4GV)<br>
-[애정, 분노, 슬픔, 피곤, 공포]등의 감정을 [대표할 수 있는 이모티콘](https://github.com/hyj378/ArtificialIntelligence/issues/17)을 포함한 트윗을 읽어 csv파일로 저장한다.
-[twitterscraper](https://pypi.org/project/twitterscraper/0.2.7/)를 이용하면 더 오래된 트윗도 읽어올 수 있다.
+<div align="center">
+ <h1 align="center">Emoji Recommand AI</h1>
+ <p align="center">
+    <a href="https://tldrlegal.com/license/mit-license">
+          <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License">
+    </a>
+  
+ </p>
+ <p align="center">
+  <b>TEAM 01 : 소 웨 지 존</b>
+ </p>
+ <p align="center">
+  이 Repository는 세종대학교 인공지능 과목에서 <br>Github를 통한 <b>AI분류기</b> 주제를 수행하기 위해 만들어졌습니다.<br><br>
+  트위터 기반의 빅 데이터로, 입력된 문장의 감정을 파악 후 이모티콘을 추천하는 AI분류기를 제작했습니다.<br>
+자세한 사항은 <a href=https://github.com/sejongresearch/EmojiRecommand/wiki> Wiki </a>를 참고해주시길 바랍니다.<br>
+ </p>
+</div>
 
 
 <br>
-<br>
-
-
-[데이터 전처리]
-*****************************************
-트윗에서 적절하지 않은 단어와 멘션과 같은 [토큰을 제거](https://colab.research.google.com/drive/1ZhkFbDcqM0BoQN8W5LaAuZv37oPE417u#scrollTo=G7J3UcCLJTvt)하고, [트위터](https://github.com/twitter/twitter-korean-text), [꼬꼬마](http://kkma.snu.ac.kr/documents/), [코모란](https://www.shineware.co.kr/products/komoran/)과 같은 형태소 분석기로 전처리한다.
-
-
-<br>
-<br>
-
-
-[데이터 학습]
-*****************************************
-조사를 제외한 단어단위로 학습을 할지 아니면 조사를 포함하여 학습할 지 정하고
-모델에 사용할 네크워크에 대해 공부하고 있음.
-
-
-<br>
-<br>
-
-## 참고할 링크
-
-[한국어 감성 분석기](https://github.com/mrlee23/KoreanSentimentAnalyzer)<br>
-[감정기반 이모지추천 시스템](https://github.com/yunsikus/BOAZ_Project)<br>
-[KoNLPy를 이용한 한국어 영화 리뷰 감정 분석](https://cyc1am3n.github.io/2018/11/10/classifying_korean_movie_review.html)<br>
-[형태소 분석기 성능 비교](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/05/10/postag/)<br>
-[이모티콘 추천기 (영어)](https://github.com/DOsinga/deep_learning_cookbook/blob/master/07.1%20Text%20Classification.ipynb)<br>
-
 <br>
 
 ## Table of Contents
-* Topic
+* Presentation
+* Directory/File Structure Diagram
 * Execution environment
 * Execution screen
 * How to execute
 * How to contribute
 * License
+* FAQ
 * Contributer's Information
 
 <br>
 
-## 1. Topic: 이모티콘 추천 분류기
-이모티콘은 주석으로 달아놓은 상태에서 문장을 미리 설정해 놓은 클래스로 분류하고,  
-클래스에 맞는 이모티콘을 추천하는 AI분류기를 만들 예정
+## 1. Presentation
+* Paper: [트위터 데이터를 이용한 감정 분류 및 이모티콘 추천](https://docs.google.com/document/d/1KNMm3CatsFcwMUiOh2MCyBfum1kfLiit7qV9XNM_mIk/edit?usp=sharing)
+* Slides: [트위터 데이터를 이용한 이모티콘 추천](https://drive.google.com/file/d/13nZFQsMdmGWgQ0pW-BmMnJ4C2u3CZANB/view?usp=sharing)
+<br><br>
 
+## 2. Directory/File Structure Diagram
+```
+준비중
+```
 <br>
 
-## 2. Execution environment 
-파이썬을 기반으로 Google Colab을 통해 개발
+## 3. Execution environment 
+파이썬을 기반으로 Google Colab, Jupyter notebook을 통해 개발
+<br><br><br>
 
-<br>
-
-## 3. Execution screen
+## 4. Execution screen
 (준비중)
+<br><br><br>
 
+## 5. How to execute
+```
+1. Project Fork
+2. Git Bash 프로그램 실행 후 저장소 clone
+```
 <br>
 
-## 4. How to execute
-(준비중)
-
+## 6. How to contribute
+```
+1. Project Fork
+2. git bash 프로그램 실행 후 저장소 clone
+3. .git 파일 생성 확인 후 파일 수정
+4. remote 저장소로 pull request 요청
+```
 <br>
 
-## 5. How to contribute
- (준비중) 
-    
+## 7. License
+Open-source under [MIT license]()
+<br><br><br>
 
-<br>
+## 8. FAQ
+FAQ는 [Issue #28](https://github.com/sejongresearch/EmojiRecommand/issues/28)을 통해 운영되고 있습니다.
+<br><br><br>
 
-## 6. License
-[Open-source under ?? license](https://tldrlegal.com/)  
-(준비중)
-
-<br>
-
-## 7. Contributor's Information
+## 9. Contributor's Information
 | 이름| 학과 | Github | Email |
 |:---:|:---:|:---:|:---:|
 |김경남|소프트웨어학과|[@kimkyeongnam](https://github.com/kimkyeongnam)|[kkyy0126@naver.com](kkyy0126@naver.com)|
