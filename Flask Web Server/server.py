@@ -36,7 +36,7 @@ PhantomEmoji(app)
 
 #################################################################################
 # load classes
-classes = [" 😍, 😘, 😙", "😤, 😡, 😠", "😥, 😢, 😭", "😔, 😑, 😐", "😨, 😰, 😱"]
+classes = ["😥, 😢, 😭", "😔, 😑, 😐", "😨, 😰, 😱", " 😍, 😘, 😙", "😤, 😡, 😠"]
 # translate
 def ko_en_translater(text):
     #! pip install googletrans
@@ -57,17 +57,16 @@ def word_emoticon(text):
 
 
 def classify(text):
+    word = []
+    with open('./model/tokenizer.pickle', 'rb') as handle:
+        tokenizer = pickle.load(handle)
     emoji = word_emoticon(text)
     text = ko_en_translater(text)
-    tokenizer = Tokenizer(num_words=40000)
-    sequences_test = tokenizer.texts_to_sequences(text)
+    word.append(text)
+    sequences_test = tokenizer.texts_to_sequences(word)
     data_int_t = pad_sequences(sequences_test, padding='pre', maxlen=(MAX_SEQUENCE_LENGTH-5))
     data_test = pad_sequences(data_int_t, padding='post', maxlen=(MAX_SEQUENCE_LENGTH))
-    json_file = open("./model/model.json", "r") 
-    loaded_model_json = json_file.read() 
-    json_file.close() 
-    loaded_model = model_from_json(loaded_model_json)
-    loaded_model.load_weights("./model/model.h5") 
+    loaded_model = load_model('./model/best_weights2.h5') 
     y_prob = loaded_model.predict(data_test)
     for n, prediction in enumerate(y_prob):
         pred = y_prob.argmax(axis=-1)[n]
