@@ -128,7 +128,7 @@
                 <strong> 트위터 기반의 빅 데이터로 문장의 감정을 파악 후 이모티콘을 추천합니다.</strong>
               </p>
 
-              <a target="_blank" href="https://github.com/hyj378/EmojiRecommand" class="btn btn-outline-white btn-lg">LET'S GO GITHUB
+              <a target="_blank" href="https://github.com/sejongresearch/EmojiRecommend/tree/temp_web" class="btn btn-outline-white btn-lg">LET'S GO GITHUB
                 <i class="fa fa-graduation-cap ml-2"></i>
               </a>
             </div>
@@ -256,7 +256,7 @@
                   <!-- Default input -->
                   <div class="form-group">
                       <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">문장 입력(한국어, 영어)</label>
-                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="input_sentence" class="form-control" id="formGroupExampleInput" placeholder="문장을 입력해주세요.">
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="result" class="form-control" id="formGroupExampleInput" placeholder="문장을 입력해주세요.">
                   </div>
                   <!-- Default input -->
                   
@@ -272,8 +272,8 @@
           <div class="col-lg-6 col-md-12">
 
             <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">이모티콘 추천받기</p>
-            {% if price %}
-              <h5 class="text-center mt-3">추천하는 이모티콘은 {{ 결과값 }}입니다.</h5>
+            {% if result %}
+              <h5 class="text-center mt-3">추천하는 이모티콘은 {{ result }}입니다.</h5>
             {% endif %}
           </div>
           <!--/Grid column-->
@@ -293,7 +293,7 @@
 
     <!--Call to action-->
     <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://github.com/hyj378/EmojiRecommand" target="_blank"
+      <a class="btn btn-outline-white" href="https://github.com/sejongresearch/EmojiRecommend/tree/temp_web" target="_blank"
         role="button">Let's Go GitHub
         <i class="fas fa-download ml-2"></i>
       </a>
