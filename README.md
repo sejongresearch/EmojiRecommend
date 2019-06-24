@@ -38,10 +38,9 @@
 * Slides: [트위터 데이터를 이용한 이모티콘 추천](https://docs.google.com/presentation/d/1vxVN929AROXwZqxRFx3-4DvX7_vZiYLV/edit#slide=id.p1)
 <br><br>
 
-## 2. Directory/File Structure Diagram
-```
-준비중
-```
+## 2. File Structure Diagram
+![Term Project](https://user-images.githubusercontent.com/38516906/60005702-f83e9080-96a9-11e9-8cd6-18880ec13849.png)
+
 <br>
 
 ## 3. Execution environment 
@@ -49,7 +48,8 @@
 <br><br><br>
 
 ## 4. Execution screen
-(준비중)
+![화면](https://user-images.githubusercontent.com/38516906/60005630-d513e100-96a9-11e9-9a74-a3cf25071ce3.png)
+
 <br><br><br>
 
 ## 5. How to execute
