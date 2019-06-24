@@ -29,13 +29,14 @@ from sklearn.metrics import classification_report, confusion_matrix
 import numpy as np
 import itertools, pickle
 from keras.models import model_from_json 
+from flask_phantom_emoji import PhantomEmoji
 
 app = Flask(__name__)
+PhantomEmoji(app)
 
 #################################################################################
 # load classes
-classes = ["sad", "tired", "fear", "happy","angry"]
-
+classes = [" 😍, 😘, 😙", "😤, 😡, 😠", "😥, 😢, 😭", "😔, 😑, 😐", "😨, 😰, 😱"]
 # translate
 def ko_en_translater(text):
     #! pip install googletrans
@@ -43,8 +44,20 @@ def ko_en_translater(text):
     result = translator.translate(text, src="ko", dest="en").text
     
     return result
+    
+def word_emoticon(text):
+    emoticon = {'flower':'🌸', 'soccer':'⚽', 'movie':'🎬', 'money':'💵', 'grape':'🍇', 'makeup':'💄', 'orange':'🍊', 'baby':'👶', 'chicken':'🐔', 'recycle':'♻', 'perfect':'💯', 'sun':'🌞', 'flight':'✈', 'music':'🎵', 'star':'⭐', 'pizza':'🍕', 'christmas':'🎄', 'moon':'🌙', 'earth':'🌏', 'cake':'🍰', 'photo':'📷', 'clap':'👏', 'hi':'✋', 'muah':'💋', 'melong': '👅', 'present': '🎁'}
+    keys = ['flower', 'soccer', 'movie', 'money', 'grape', 'makeup', 'orange', 'baby', 'chicken', 'recycle', 'perfect', 'sun', 'flight', 'music', 'star', 'pizza', 'christmas', 'moon', 'earth', 'cake', 'photo', 'clap', 'hi', 'muah', 'melong', 'present']
+    result = []
+    for key in keys:
+        if key in text:
+            result.append(emoticon[key])
+    
+    return result
+
 
 def classify(text):
+    emoji = word_emoticon(text)
     text = ko_en_translater(text)
     tokenizer = Tokenizer(num_words=40000)
     sequences_test = tokenizer.texts_to_sequences(text)
@@ -59,7 +72,13 @@ def classify(text):
     for n, prediction in enumerate(y_prob):
         pred = y_prob.argmax(axis=-1)[n]
         print(text[n],"\nPrediction:",classes[pred],"\n")
-    return classes[pred]
+    
+    result = classes[pred]
+    
+    for i in range(len(emoji)):
+        result = result + "," + emoji[i] + " "
+        
+    return result
 
 
 MAX_NB_WORDS = 40000 # max no. of words for tokenizer
@@ -69,18 +88,18 @@ EMBEDDING_DIM = 200 # embedding dimensions for word vectors (word2vec/GloVe)
 ###############################################################################
 @app.route("/", methods=['GET', 'POST'])
 def index():
-	# �Ϲ������� ���� 
-	if request.method == 'GET':
-		return render_template('index.html')
+    # 일반적으로 접속 
+    if request.method == 'GET':
+        return render_template('index.html')
 
-	# ������ �Է�
-	if request.method == 'POST':
-		result = request.form['result']
+    # 데이터 입력
+    if request.method == 'POST':
+        result = request.form['result']
 
 
-	sentence = "__label__1"
-	result = classify(result)
-	return render_template('index.html', result=result)
+    sentence = "__label__1"
+    result = classify(result)
+    return render_template('index.html', result=result)
 
 if __name__ == '__main__':
-	app.run(debug=True)
+    app.run(debug=True)
