@@ -1,5 +1,5 @@
 <div align="center">
- <h1 align="center">Emoji Recommand AI</h1>
+ <h1 align="center">Emoji Recommend AI</h1>
  <p align="center">
     <a href="https://tldrlegal.com/license/mit-license">
           <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License">
