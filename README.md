@@ -69,7 +69,7 @@
 <br>
 
 ## 7. License
-Open-source under [MIT license]()
+Open-source under [MIT license](https://github.com/sejongresearch/EmojiRecommend/blob/master/LICENSE)
 <br><br><br>
 
 ## 8. FAQ
