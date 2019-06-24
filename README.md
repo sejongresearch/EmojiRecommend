@@ -34,8 +34,8 @@
 <br>
 
 ## 1. Presentation
-* Paper: [트위터 데이터를 이용한 감정 분류 및 이모티콘 추천](https://docs.google.com/document/d/1KNMm3CatsFcwMUiOh2MCyBfum1kfLiit7qV9XNM_mIk/edit?usp=sharing)
-[pdf](https://github.com/sejongresearch/EmojiRecommand/files/3318004/default.pdf)
+* Paper: [트위터 데이터를 이용한 감정 분류 및 이모티콘 추천.pdf](https://github.com/sejongresearch/EmojiRecommend/files/3319035/default.pdf)
+(https://docs.google.com/document/d/1KNMm3CatsFcwMUiOh2MCyBfum1kfLiit7qV9XNM_mIk/edit?usp=sharing)
 * Slides: [트위터 데이터를 이용한 이모티콘 추천](https://docs.google.com/presentation/d/1vxVN929AROXwZqxRFx3-4DvX7_vZiYLV/edit#slide=id.p1)
 <br><br>
 
