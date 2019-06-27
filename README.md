@@ -39,7 +39,8 @@
 <br><br>
 
 ## 2. File Structure Diagram
-![Term Project](https://user-images.githubusercontent.com/38516906/60005702-f83e9080-96a9-11e9-8cd6-18880ec13849.png)
+![Term Project](https://user-images.githubusercontent.com/38516906/60260172-da746400-9913-11e9-877d-6735767bd277.png)
+
 
 <br>
 
