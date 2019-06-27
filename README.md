@@ -57,6 +57,9 @@
 ```
 1. Project Fork
 2. Git Bash 프로그램 실행 후 저장소 clone
+3. cmd창의 주소를 Flask Web Server 폴더로 설정
+4. python server.py
+5. http://localhost:5000 또는 http://127.0.0.1:5000으로 접속
 ```
 <br>
 
