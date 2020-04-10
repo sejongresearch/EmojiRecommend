@@ -57,8 +57,9 @@
 ## 5. How to execute
 ```bash
 $ git clone https://github.com/sejongresearch/EmojiRecommend.git
-$ cd "Flask Web Server"
+$ cd EmojiRecommend
 $ python install -r requirements.txt
+$ cd "Flask Web Server"
 $ python server.py
 $ Connect to http://localhost:5000 or http://127.0.0.1:5000
 ```
