@@ -10,9 +10,10 @@
   <b>TEAM 01 : 소 웨 지 존</b>
  </p>
  <p align="center">
-  이 Repository는 세종대학교 인공지능 과목에서 <br>Github를 통한 <b>AI분류기</b> 주제를 수행하기 위해 만들어졌습니다.<br><br>
+  This repository was made for Intelligence Electrical Engineering Division<br>: 2019 Artificial Intelligence term project, Sejong University.<br>
+  이 Repository는 세종대학교 인공지능 과목에서 <br>Github를 통한 <b>AI분류기</b> 주제를 수행하기 위해 만들어졌습니다.</p><br><br>
+ <p align="center">Based on Twitter data, We made an AI classification system that recommends emoji<br>after understanding the emotions of the sentences entered.<br>
   트위터 기반의 빅 데이터로, 입력된 문장의 감정을 파악 후 이모티콘을 추천하는 AI분류기를 제작했습니다.<br>
-자세한 사항은 <a href=https://github.com/sejongresearch/EmojiRecommand/wiki> Wiki </a>를 참고해주시길 바랍니다.<br>
  </p>
 </div>
 
@@ -22,7 +23,7 @@
 
 ## Table of Contents
 * Presentation
-* Directory/File Structure Diagram
+* File Structure Diagram
 * Execution environment
 * Execution screen
 * How to execute
@@ -40,12 +41,12 @@
 
 ## 2. File Structure Diagram
 ![Term Project](https://user-images.githubusercontent.com/38516906/60260172-da746400-9913-11e9-877d-6735767bd277.png)
-
-
 <br>
 
 ## 3. Execution environment 
-파이썬을 기반으로 Google Colab, Jupyter notebook을 통해 개발
+* Python 3.6
+* Google Colab
+* Jupyter notebook
 <br><br><br>
 
 ## 4. Execution screen
@@ -54,21 +55,21 @@
 <br><br><br>
 
 ## 5. How to execute
-```
-1. Project Fork
-2. Git Bash 프로그램 실행 후 저장소 clone
-3. cmd창의 주소를 Flask Web Server 폴더로 설정
-4. python server.py
-5. http://localhost:5000 또는 http://127.0.0.1:5000으로 접속
+```bash
+$ git clone https://github.com/sejongresearch/EmojiRecommend.git
+$ cd "Flask Web Server"
+$ python install -r requirements.txt
+$ python server.py
+$ Connect to http://localhost:5000 or http://127.0.0.1:5000
 ```
 <br>
 
 ## 6. How to contribute
 ```
 1. Project Fork
-2. git bash 프로그램 실행 후 저장소 clone
-3. .git 파일 생성 확인 후 파일 수정
-4. remote 저장소로 pull request 요청
+2. git clone https://github.com/[Your Github Name]/EmojiRecommend.git
+3. Check .git file & edit files
+4. pull request your code
 ```
 <br>
 
@@ -76,12 +77,13 @@
 Open-source under [MIT license](https://github.com/sejongresearch/EmojiRecommend/blob/master/LICENSE)
 <br><br><br>
 
-## 8. FAQ
-FAQ는 [Issue #28](https://github.com/sejongresearch/EmojiRecommand/issues/28)을 통해 운영되고 있습니다.
+## 8. Q&A
+QnA is operating through Issues.<br>
+FAQ is operating through [Issue #28](https://github.com/sejongresearch/EmojiRecommand/issues/28)
 <br><br><br>
 
 ## 9. Contributor's Information
-| 이름| 학과 | Github | Email |
+| Name | Major | Github | Email |
 |:---:|:---:|:---:|:---:|
 |김경남|소프트웨어학과|[@kimkyeongnam](https://github.com/kimkyeongnam)|[kkyy0126@naver.com](kkyy0126@naver.com)|
 |김민주|소프트웨어학과|[@min942773](https://github.com/min942773)|min942773@gmail.com|
