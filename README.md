@@ -86,7 +86,7 @@ FAQ is operating through [Issue #28](https://github.com/sejongresearch/EmojiReco
 ## 9. Contributor's Information
 | Name | Major | Github | Email |
 |:---:|:---:|:---:|:---:|
-|김루비|소프트웨어학과|[@ruby-kim](https://github.com/ruby-kim)|[dev.rubykim@gmail.com]|
+|김루비|소프트웨어학과|[@ruby-kim](https://github.com/ruby-kim)|dev.rubykim@gmail.com|
 |김민주|소프트웨어학과|[@min942773](https://github.com/min942773)|min942773@gmail.com|
 |유지인|디지털콘텐츠학과|[@jiin0217](https://github.com/jiin0217)|yji9602@naver.com|
 |이주혁|소프트웨어학과|[@zero5two4](https://github.com/zero5two4)|zero5.two4@gmail.com|
